@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+    <title>PARROT JEWEL | عالم الطيور والاكسسوارات</title>
+
+    <meta name="description"
+    content="PARROT JEWEL - ببغاوات وعصافير وإكسسوارات ومستلزمات الطيور">
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+
+        <!-- =========================
+         TOP BAR
+         ========================= -->
+
+         <div class="top-bar">
+            <p>
+               🦜 أهلا بك في PARROT JEWEL
+            </p>
+            </div>
+
+            <!-- =========================
+             HEADER 
+             ========================= -->
+
+             <header class="header">
+
+                <div class="header-container">
+
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">&#9776;</button>
+
+                    <a href="#home" class="logo">
+                        <img
+
+                        src="{{ url_for('static', filename='images/logo.jpg') }}"
+                        alt="PARROT JEWEL">
+                    </a>
+
+                            <div class="header-actions">
+
+                                    <button class="header-action" id="cartBtn">
+                                        <span>🛒</span>
+                                        <small>السلة</small>
+                                        <b id="cartCount">0</b>
+                                        </button>
+
+                                        </div>
+
+                                        </div>
+
+                                        <!-- Navigation -->
+
+                                        <nav class="main-nav" id="mainNav">
+
+                                            <a href="#home" class="active">الرئيسية</a>
+
+                                            <a href="#categories">الأقسام</a>
+
+                                            <a href="#birds">🦜 الببغاوات</a>
+
+                                            <a href="#birds">🐦 العصافير</a>
+
+                                            <a href="#accessories">✨ الإكسسوارات</a>
+
+                                            <a href="#offers">🔥 العروض</a>
+
+                                            <a href="#contact">📞 تواصل معنا</a>
+                                            
+                                            </nav>
+
+                                            </header>
+
+                                            <!-- ========================= 
+                                             MAIN 
+                                             ========================= -->
+
+                                             <main>
+
+                            <!-- =========================
+                             HERO
+                             ========================== -->
+
+                             <section class="hero" id="home">
+
+                                <div class="hero-container">
+
+                                    <div class="hero-content">
+
+                                        <span class="hero-label">
+                                            🦜 PARROT JEWEL
+                                        </span>
+
+                                        <h1>
+                                            كل عالم الطيور
+                                        <span>بين ايديك</span>
+                                        </h1>
+
+                                        <p>
+                                            ببغاوات وعصافير وإكسسوارات ومستلزمات
+                                            مختارة بعناية لعشاق الطيور.
+                                        </p>
+
+                                        <div class="hero-buttons">
+
+                                            <a href="#products" class="btn btn-primary">
+                                                اكتشف المنتجات
+                                            </a>
+
+                                            <a href="#categories" class="btn btn-outline">
+                                                تصفح الأقسام
+                                            </a>
+
+                                            </div>
+
+                                            </div>
+
+                                            <div class="hero-image">
+
+                                                <img
+                                src="{{ url_for('static', filename='images/logo.jpg') }}"
+                                alt="PARROT JEWEL">
+
+                                </div>
+
+                                </div>
+
+                                </section>
+
+                                <!-- =========================
+                                  FEATURES
+                                  ========================= -->
+
+                                  <section class="features">
+
+                                    <div class="feature">
+
+                                        <span>🚚</span>
+
+                                        <div>
+                                            <h3>الدفع عند الاستلام</h3>
+                                            <p>ادفع عند استلام طلبك</p>
+                                        </div>
+
+                                        </div>
+
+                                        <div class="feature">
+
+                                            <span>🦜</span>
+
+                                            <div>
+                                                <h3>منتجات طيور</h3>
+                                                <p>كل ما يحتاجة طائرك</p>
+                                            </div>
+
+                                            </div>
+
+                                            <div class="feature">
+
+                                                <span>📞</span>
+
+                                                <div>
+                                                    <h3>تواصل مباشر</h3>
+                                                    <p>اطلب واستفسر بسهولة</p>
+                                                </div>
+
+                                                </div>
+
+                                                <div class="feature">
+
+                                                    <span>⭐</span>
+
+                                                    <div>
+                                                        <h3>اختيارات مميزة</h3>
+                                                        <p>منتجات مختارة بعناية</p>
+                                                    </div>
+
+                                                    </div>
+
+                                                    </section>
+
+                                                    <!-- =========================
+                                                     CATEGORIES
+                                                    ========================= -->
+
+                                                    <section class="section categories" 
+                                                    id="categories">
+
+                                                    <div class="section-heading">
+
+                                                        <span>تصفح المتجر</span>
+
+                                                        <h2>
+                                                            اختار القسم المناسب
+                                                        </h2>
+
+                                                        <p>
+                                                اكتشف المنتجات المتاحة في PARROT JEWEL
+                                                        </p>
+
+                                                        </div>
+
+                                                        <div class="category-grid">
+
+                                                            <a href="#birds" class="category-card">
+
+                                                                <div class="category-icon">
+                                                                    🦜
+                                                                </div>
+
+                                                                <h3>
+                                                                    الببغاوات
+                                                                </h3>
+
+                                                                <p class="unavailable-message">
+                                                                    <span>⏳</span>
+                                                                    لا توجد ببغاوات متاحة حاليا
+                                                                    <small>بنراجع المتاح وسيتم التحديث قريبا</small>
+                                                                    </p>
+
+                                                                </a>
+
+                                                                <a href="#birds" 
+                                                                class="category-card">
+
+                                                                <div class="category-icon">
+                                                                    🐦
+                                                                </div>
+
+                                                                <h3>
+                                                                    العاصفير
+                                                                </h3>
+
+                                                                <p class="unavailable-message">
+                                                                  <span>⏳</span>
+                                                                    لا توجد عصافير متاحة حاليا
+                                                                <small>
+                                                                   بنشيك علي المتاح حاليا وسيتم تحديث القسم قريبا.
+                                                                </small>
+                                                                </p>
+
+                                                                </a>
+
+                                                                <a href="#accessories"
+                                                                class="category-card">
+
+                                                                <div class="category-icon">
+                                                                    ✨
+                                                                </div>
+
+                                                                <h3>
+                                                                    الإكسسوارات
+                                                                </h3>
+
+                                                                <p>
+                                                                    ألعاب ومستلزمات الطيور
+                                                                </p>
+
+                                                                </a>
+
+                                                                <a href="#offers"
+                                                                class="category-card">
+
+                                                                <div class="category-icon">
+                                                                    🔥
+                                                                </div>
+
+                                                                <h3>
+                                                                    العروض
+                                                                </h3>
+
+                                                                <p>
+                                                                    أفضل العروض والخصومات
+                                                                </p>
+
+                                                                </a>
+
+                                                                </div>
+
+                                                                </section>
+
+                                                                <!-- ==========================
+                                                                 PRODUCTS
+                                                                 ========================= -->
+
+                                                                 <section class="section 
+                                                                 products-section" id="products">
+
+                                                                 <div class="section-heading">
+
+                                                                    <span>منتجاتنا</span>
+
+                                                                    <h2>
+                                                                        أحدث المنتجات
+                                                                    </h2>
+
+                                                                    <p>
+                                                 أحسن الخامات في متجر PARROT JEWEL
+                                                                    </p>
+
+                                                                    </div>
+
+                        <div class="products-toolbar">
+
+                            <button class="filter-btn active"
+                            data-filter="all">الكل</button>
+
+                            <button class="filter-btn" 
+                            data-filter="birds">الطيور</button>
+
+                            <button class="filter-btn"
+                            data-filter="accessories">الإكسسوارات</button>
+
+                            <button class="filter-btn"
+                            data-filter="offers">العروض</button>
+
+                            </div>
+
+                            <div class="products-grid" id="productsGrid">
+
+                                <!-- ==========================
+                                 PRODUCT 1
+                                 ========================= -->
+
+                                 <article class="product-card"
+                                 data-category="accessories"
+                                 data-nema="سوستة خضار وفواكة">
+                            
+                                <div class="product-image-container">
+
+                                    <img
+                                    src="{{ url_for('static', filename='images/vegetable-fruit-holder.jpg') }}"
+                                    alt="سوستة خضار وفواكة"
+                                    class="product-image">
+
+                                    <span class="product-badge">جديد</span>
+
+                                    <button class="favorite-btn"
+                                    type="button">❤</button>
+
+                                    </div>
+
+                                    <div class="product-content">
+
+                                        <span class="product-category">إكسسوارات الطيور</span>
+
+                                        <h3 class="product-title">سوستة خضار وفواكة</h3>
+
+                                        <div class="rating">
+                                            <span>⭐⭐⭐⭐⭐</span>
+                                            <small>مقاس L</small>
+                                        </div>
+
+                                        <p class="product-description">
+                                            الحل الأمثل لحفظ طعام طيورك نظيفا وامنا.
+                                        </p>
+
+                                        <div class="product-option">
+                                            <span>المقاس:</span>
+                                            <strong>L - لارج</strong>
+                                        </div>
+
+                                        <div class="price-area">
+
+                                            <span class="price-label">
+                                                السعر:
+                                            </span>
+
+                                            <strong class="product-price">
+                                                250ج.م 
+                                            </strong>
+                
+                                            </div>
+
+                                                        <!-- Availability -->
+
+                                <div class="availability">
+
+                                    <span class="available-dot"></span>
+                                متوفر حاليا
+                                </div>
+
+                                <!-- Buttons -->
+
+                                <div class="product-actions">
+
+                                    <button class="add-cart-btn"
+                                    type="button">
+                                🛒 أضف للسلة
+                                </button>
+
+                            </div>
+
+                            </div>
+
+                            </article>
+
+                            <!-- PRODUCT 2 -->
+                    <article class="product-card"
+                    data-category="accessories"
+                    data-nema="حوض استحمام معلق للطيور">
+
+                    <div class="product-image-container">
+
+                        <img
+                src="{{ url_for('static', filename='images/style.jpg') }}"
+                alt="حوض استحمام معلق للطيور"
+                class="product-image">
+
+                <span class="product-badge">جديد</span>
+
+                <button class="favorite-btn"
+                type="button">❤</button>
+
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">إكسسوارات الطيور</span>
+
+                    <h3 class="product-title">حوض استحمام معلق للطيور</h3>
+
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <small>(تقيم 4.9)</small>
+                        </div>
+
+                        <p class="product-description">
+                            حوض استحمام عملي ومميز يعلق داخل القفص مناسب للطيور ويساعدها علي الاستحمام بسهولة.
+                        </p>
+
+                        <div class="product-option">
+                            <span>الأحجام المتاحة:</span>
+                            <strong>L - S</strong>
+                        </div>
+
+                        <div class="product-option">
+                            <span>الألوان المتاحة:</span>
+
+                            <div class="color-options">
+                        <button
+class="color-option" title="أصفر"></button>
+                        <button
+class="color-option" title="أزرق"></button>
+                        <button
+class="color-option" title="أبيض"></button>
+                        <button
+class="color-option" title="أخضر"></button>
+                        <button
+class="color-option" title="أحمر"></button>
+</div>
+</div>
+
+               <div class="price-area">
+                <span class="price-label">السعر:</span>
+
+                <strong class="product-price">1000ج.م</strong>
+                </div>
+
+                <div class="availability">
+                    <span class="available-dot"></span>
+                    متوفر حاليا
+                    </div>
+
+                    <div class="product-actions">
+
+                        <button class="add-cart-btn"
+                        type="button">🛒 أضف للسلة</button>
+
+                        </div>
+
+                        </div>
+
+                        </article>
+
+                        <!-- PRODUCT 3 -->
+
+                        <article class="product-card"
+                        data-category="accessories"
+                        data-nema="أطباق استانلس استيل بيور">
+
+                        <div class="product-image-container">
+
+                            <img 
+            src="{{ url_for('static', filename='images/stainless.jpg') }}"
+            alt="أطباق استانلس استيل بيور"
+            class="product-image">
+
+            <span class="product-badge">مميز</span>
+
+            <button class="favorite-btn"
+            type="button">❤</button>
+
+            </div>
+
+            <div class="product-content">
+
+                <span class="product-category"> إكسسوارات الطيور</span>
+
+                <h3 class="product-title">
+                    أطباق استانلس استيل بيور
+                </h3>
+
+                <div class="rating">
+                    <span>⭐⭐⭐</span>
+                    <small>(تقيم 3.7)</small>
+                    </div>
+
+                    <p class="product-description">
+                        أطباق استانلس استيل بيور للطيور 🍽 
+                        قوية وسهلة التنظيف ومناسبة لتقديم 
+                        الطعام والمياة 🦜✨
+                    </p>
+
+                     <div class="price-area">
+
+                        <span class="price-area">السعر:</span>
+
+                        <strong class="product-price">500 ج.م</strong>
+
+                        </div>
+
+                        <div class="availability">
+                            <span class="available-dot"></span>
+                            متوفر حاليا
+
+                            </div>
+
+                            <div class="product-actions">
+
+                                <button class="add-cart-btn"
+                                type="button">🛒أضف للسلة</button>
+
+                                </div>
+
+                                </div>
+
+                                </article>
+
+                        <!-- PRODUCT 4 -->
+
+                        <article class="product-card"
+                        data-category="accessories"
+                        data-nema="مرجيحة اسبريال">
+
+                        <div class="product-image-container">
+
+                            <img 
+                            src="{{ url_for('static', filename='images/swing.jpg') }}"
+                            alt="مرجيحة اسبريال"
+                            class="product-image">
+
+                            <span class="product-badge">إكسسوار</span>
+
+                            <button class="favorite-btn"
+                            type="button">❤</button>
+
+                            </div>
+
+                            <div class="product-content">
+
+                                <span class="product-category">إكسسوارات الطيور</span>
+
+                                <h3 class="product-title">
+                                    مرجيحة اسبريال
+                                </h3>
+
+                                <div class="rating">
+                                    <span>⭐⭐⭐⭐</span>
+                                    <small>(تقيم 4.4)</small>
+                                    </div>
+
+                                    <p class="product-description">
+                                        مرجيحة اسبريال مميزة وممتعة للطيور تساعد 🌈🐦
+                                        علي اللعب والحركة وتمنح طائرك وقتا ممتعا داخل 
+                                        القفص تصميم ملون ومناسب لإضافة جو من المرح 
+                                        والنشاط✨🦜💚.
+                                    </p>
+
+                                    <div class="price-area">
+
+                                        <span class="price-label">السعر:</span>
+
+                                        <strong class="product-price">10000 ج.م</strong>
+                                        </div>
+
+                                        <div class="availability">
+
+                                            <span class="available-dot"></span>
+                                            متوفر حاليا
+                                            </div>
+
+                                            <div class="product-actions">
+
+                                                <button class="add-cart-btn">🛒أضف للسلة</button>
+
+                                                </div>
+
+                                                </div>
+
+                                                </article>
+
+                                                <!-- PRODUCT 5 -->
+
+                        <article class="product-card"
+                        data-category="accessories"
+                        data-nema="مرجيحة خشبية الاجراس">
+
+                        <div class="product-image-container">
+
+                            <img 
+                src="{{ url_for('static', filename='images/product5.jpg') }}"
+                alt="مرجيحة خشبية الاجراس"
+                class="product-image">
+
+                <span class="product-badge">إكسسوار</span>
+
+                <button class="favorite-btn"
+                type="button">❤</button>
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">إكسسوارات الطيور</span>
+
+                    <h3 class="product-title">مرجيحة خشبية الاجراس🔔</h3>
+
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <small>(تقيم 4.9)</small>
+                        </div>
+
+                        <p class="product-description">
+                            مرجيحة خشبية مميزة للطيور 🐦☘ تساعد علي الحركة واللعب داخل القفص🔔✨
+                        </p>
+
+                        <div class="price-area">
+                            <span class="price-label">السعر:</span>
+                            <strong class="product-price">500 ج.م</strong>
+                            </div>
+
+                            <div class="availability">
+                                <span class="available-dot"></span>
+                                متوفر حاليا
+                                </div>
+
+                                <div class="product-actions">
+
+                                    <button class="add-cart-btn">🛒أضف للسلة</button>
+                                   
+                                    </div>
+
+                                    </div>
+
+                                    </article>
+
+                                    <!-- PRODUCT 6 -->
+
+                                    <article class="product-card"
+                                    data-category="accessories"
+                                    data-nema="سلم خشب معلق">
+
+                                    <div class="product-image-container">
+
+                                        <img 
+                                        src="{{ url_for('static', filename='images/product6.jpg') }}"
+                                        alt="سلم خشب معلق"
+                                        class="product-image">
+
+                                        <span class="product-badge">إكسسوار</span>
+
+                                        <button class="favorite-btn"
+                                        type="button">❤</button>
+                                        </div>
+
+                                        <div class="product-content">
+
+                                            <span class="product-category"> إكسسوارات الطيور</span>
+
+                                            <h3 class="product-title">سلم خشب معلق🦜✨</h3>
+
+                                            <div class="rating">
+                                                <span>⭐⭐⭐</span>
+                                                <small>(تقيم 3.4)</small>
+                                                </div>
+
+                                                <p class="product-description">
+                                                    سلم خشبي ملون وممتع للطيور 🐦🌈 يساعدها علي التسلق واللعب داخل القفص.
+                                                </p>
+
+                                                <div class="price-area">
+                                                    <span class="price-label">السعر:</span>
+                                                    <strong class="product-price">2000 ج.م</strong>
+                                                    </div>
+
+                                                    <div class="availability">
+                                                        <span class="available-dot"></span>
+                                                        متوفر حاليا
+                                                        </div>
+
+        <div class="product-actions">
+            <button class="add-cart-btn">🛒أضف للسلة</button>
+           
+            </div>
+
+            </div>
+
+            </article>
+
+            <!-- PRODUCT 7  -->
+             <article class="product-card"
+             data-category="accessories"
+             data-nema="وقافة غصن شجر">
+
+             <div class="product-image-container">
+                <img 
+                src="{{ url_for('static', filename='images/product7.jpg') }}"
+                alt="وقافة غصن شجر"
+                class="product-image">
+
+                <span class="product-badge">إكسسوار</span>
+
+                <button class="favorite-btn"
+                type="button">❤</button>
+                </div>
+
+                <div class="product-content">
+
+                    <span class="product-category">إكسسوارات الطيور</span>
+
+                    <h3 class="product-title">وقافة غصن شجر🦜🌲</h3>
+
+                    <div class="rating">
+
+                        <span>⭐⭐⭐⭐⭐</span>
+                        <small>(تقيم 5.0)</small>
+                        </div>
+
+                        <p class="product-description">
+                            وقافة طبيعية من غصن الشجر 🌲 تمنح الطيور مكانا مريحا للوقوف والراحة
+                            داخل القفص 🐦✨.
+                        </p>
+
+                        <div class="price-area">
+                <span class="price-label">السعر:</span>
+                <strong class="product-price">1000 ج.م</strong>
+                </div>
+
+                <div class="availability">
+                    <span class="available-dot"></span>
+                    متوفر حاليا
+                    </div>
+
+                    <div class="product-actions">
+                        <button class="add-cart-btn">🛒أضف للسلة</button>
+                        
+                        </div>
+
+                        </div>
+
+                        </article>
+
+                        <!-- PRODUCT 8 -->
+                        <article class="product-card"
+                        data-category="accessories"
+                        data-nema="سلم خشب زان">
+
+                        <div class="product-image-container">
+                            <img
+                            src="{{ url_for('static', filename='images/product8.jpg') }}"
+                            alt="سلم خشب زان"
+                            class="product-image">
+
+                            <span class="product-badge">إكسسوار</span>
+
+                            <button class="favorite-btn"
+                            type="button">❤</button>
+                            </div>
+
+                            <div class="product-content">
+
+                                <span class="product-category">إكسسوارات الطيور</span>
+
+                                <h3 class="product-title">سلم خشب زان </h3>
+
+                                <div class="rating">
+                                    <span>⭐⭐⭐⭐</span>
+                                    <small>(تقيم 4.4)</small>
+                                    </div>
+
+                                    <p class="product-description">
+                                        سلم خشبي متين للطيور🌲 يساعدها علي التسلق والحركة واللعب داخل القفص بكل متعة✨.
+                                    </p>
+
+                                    <div class="price-area">
+
+                                        <span class="price-label">السعر:</span>
+                                        <strong class="product-price">1000 ج.م</strong>
+                                        </div>
+
+                                        <div class="availability">
+                                            <span class="available-dot"></span>
+                                            متوفر حاليا
+                                            </div>
+
+                                            <div class="product-actions">
+                        <button class="add-cart-btn">🛒أضف للسلة</button>
+                        
+                        </div>
+                    
+                        </div>
+
+                        </article>
+
+                        <!-- PRODUCT 9 -->
+                         <article class="product-card"
+                         data-category="accessories"
+                         data-nema="وقافات جزع شجر">
+
+                         <div class="product-image-container">
+                            <img
+                            src="{{ url_for('static', filename='images/product9.jpg') }}"
+                            alt="وقافات جزع شجر"
+                            class="product-image">
+
+                            <span class="product-badge">إكسسوار</span>
+
+                            <button class="favorite-btn"
+                            type="button">❤</button>
+                            </div>
+
+                            <div class="product-content">
+
+                                <span class="product-category">إكسسوارات الطيور</span>
+
+                                <h3 class="product-title">وقافات جزع شجر🌲</h3>
+
+                                <div class="rating">
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                    <small>(تقيم 5.0)</small>
+                                    </div>
+
+                                    <p class="product-description">
+                                        وقافات طبيعية من جزع الشجر 🌲✨ تمنح الطيور مكانا مريحا للوقوف والراحة داخل
+                                        القفص 💚.
+                                    </p>
+
+                                    <div class="price-area">
+                                        <span class="price-label">السعر:</span>
+                                        <strong class="product-price">8000 ج.م</strong>
+                                        </div>
+
+                                    <div class="availability">
+                                        <span class="available-dot"></span>
+                                        متوفر حاليا
+                                        </div>
+
+                                        <div class="product-actions">
+                                            <button class="add-cart-btn">🛒أضف للسلة</button>
+                                            
+                                            </div>
+
+                                            </div>
+
+                                            </article>
+                        
+                        </div>
+
+                            </section>
+
+                            <!-- ==========================
+                             ACCESSORIES
+                             ========================== -->
+
+                             <section class="section accessories-section"
+                             id="accessories">
+
+                             <div class="section-heading">
+
+                                <span>لصديقك المميز</span>
+
+                                <h2>
+                                    إكسسوارات ومستلزمات الطيور
+                                </h2>
+
+                                <p>
+                            ألعاب وأقفاص ومستلزمات سنضيفها مع وصول المنتجات الجديدة.
+                                </p>
+
+                                </div>
+
+                                </section>
+
+                                <!-- ===========================
+                                 OFFERS
+                                 ========================= -->
+
+                                 <section class="section offers-section"
+                                 id="offers">
+
+                                 <div class="offer-content">
+
+                                 <span>
+                                🔥 قريبا
+                                 </span>
+
+                                 <h2>
+                                    عروض PARRTO JEWEL
+                                 </h2>
+
+                                 <p>
+                                    هنضيف العروض والخصومات بمجرد وصول المنتجات والأسعار
+                                 </p>
+
+                                 <a href="#contact"
+                                 class="btn btn-primary">
+                                اسأل عن المنتجات
+                                </a>
+
+                                </div>
+
+                                </section>
+
+                                <!-- ===========================
+                                 CONTACT
+                                 ========================= -->
+
+                                 <section class="section contact-section"
+                                 id="contact">
+
+                                 <div class="contact-container">
+
+                                    <div class="contact-content">
+
+                                        <span>
+                                            📞 تواصل معنا
+                                        </span>
+
+                                        <h2> 
+                               عايز تحجز منتج؟
+                                        </h2>
+
+                                        <p>
+                                            اتصل بينا للحجز والاستفسار عن المنتجات والأسعار والتوافر.
+                                        </p>
+
+                                        <p>
+                                            💵 الدفع عند الاستلام
+                                        </p>
+
+                                        <a href="https://wa.me/201104085045"
+                                        class="phone-button"
+                                        target="_blank"
+                                        rel="noopener noreferrer">تواصل معنا علي واتساب 📱</a>
+                                        </div>
+
+                                        </div>
+
+                                        </section>
+
+                                        </main>
+
+                                        <!-- ===========================
+                                         CATR PANEL
+                                         ========================== -->
+
+                                         <aside class="cart-panel"
+                                         id="cartPanel"
+                                         aria-hidden="true">
+
+                                         <div class="cart-header">
+
+                                            <h2>
+                                                🛒 سلة المشتريات
+                                            </h2>
+
+                                            <button id="closeCart"
+                                            type="button">
+                                        
+                                            ×
+                                        
+                                        </button>
+
+                                        </div>
+
+                                        <div class="cart-items"
+                                        id="cartItems">
+
+                                        <div class="empty-cart">
+
+                                            <span>
+                                                🛒
+                                            </span>
+
+                                            <p>
+                                                السلة فارغة حاليا
+                                            </p>
+
+                                            </div>
+
+                                            </div>
+
+                                            <div class="cart-footer">
+
+                                                <div class="cart-total">
+
+                                                    <span>
+                                                        الإجمالي
+                                                    </span>
+
+                                                    <strong id="cartTotal">
+                                                        جنية 0
+                                                    </strong>
+
+                                                    </div>
+
+                                                    <button
+                                                    class="checkout-btn"
+                                                    id="checkoutBtn"
+                                                    type="button">إتمام الطلب</button>
+
+                                                    </div>
+
+                                                    </aside>
+
+                                                    <!-- Overlay -->
+
+                                                    <div class="overlay"
+                                                    id="overlay">
+                                                </div>
+
+                                                <!-- ===========================
+                                                 FOOTER
+                                                 ============================ -->
+
+                                                 <footer class="footer">
+
+                                                    <div class="footer-container">
+
+                                                        <div class="footer-brand">
+
+                                                            <img
+
+                        src="{{ url_for('static', filename='images/logo.jpg') }}"
+                        alt="PARROT JEWEL">
+
+                        <h3>
+                            PARROT JEWEL
+                        </h3>
+
+                        <p>
+                            عالم مميز لعشاق الببغاوات والعصافير.
+                        </p>
+
+                        </div>
+
+                        <div class="footer-links">
+
+                            <h3>
+                                روابط سريعة
+                            </h3>
+
+                            <a href="#home">الرئيسية</a>
+
+                            <a href="#categories">الأقسام</a>
+
+                            <a href="#products">المنتجات</a>
+
+                            <a href="#contact">تواصل معنا</a>
+
+                            </div>
+
+                            <div class="footer-contact">
+
+                                <h3>
+                                تواصل معنا
+                                </h3>
+
+                                <a href="https://wa.me/201104085045"
+                                target="_blank"
+                                rel="noopener noreferrer">تواصل معنا علي واتساب 📱</a>
+
+                                <p>
+                                    💵 الدفع عند الاستلام
+                                </p>
+
+                                </div>
+
+                                </div>
+
+                                <div class="copyright">
+
+                                    <p>
+                                     © 2026 PARROT JEWEL - جميع الحقوق محفوظة
+                                    </p>
+
+                                    </div>
+
+                                    </footer>
+
+                                    <!-- JavaScript -->
+
+                                    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+                                    </body>
+
+                                    </html>
